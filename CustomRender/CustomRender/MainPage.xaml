@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomRender.MainPage"
+             xmlns:local="clr-namespace:CustomRender;assembly=CustomRender">
+
+    <StackLayout BackgroundColor="White">
+        <StackLayout VerticalOptions="CenterAndExpand"  Padding="20">
+            <Label Text="FirstName"  FontSize="Medium" Padding="3" TextColor="Black"/>
+            <local:MyEntry  Placeholder="First Name" PlaceholderColor="LightGray" TextColor="Black"/>
+        </StackLayout>
+    </StackLayout>
+
+   
+
+</ContentPage>
